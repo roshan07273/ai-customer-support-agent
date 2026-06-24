@@ -116,5 +116,3 @@ Use these from the UI customer selector:
 
 - Failure trace: select any customer and change the request in the browser devtools or API docs to an invalid order id.
   - Expected: the admin panel shows the failed tool call.
-
-ization, tone, and recovery from ambiguous customer messages.
