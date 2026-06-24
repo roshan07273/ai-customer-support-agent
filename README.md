@@ -71,11 +71,6 @@ Then open:
 - Backend docs: http://localhost:8000/docs
 - Health check: http://localhost:8000/api/health
 
-Optional `.env`:
-
-```bash
-OPENAI_API_KEY=sk-...
-```
 
 The app works without this key because the policy engine has a deterministic fallback response.
 
