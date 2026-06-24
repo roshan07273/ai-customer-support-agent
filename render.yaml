@@ -1,7 +1,7 @@
 services:
   - type: web
     name: ai-refund-agent-api
-    env: docker
+    runtime: docker
     rootDir: backend
     plan: free
     healthCheckPath: /api/health
@@ -11,9 +11,8 @@ services:
 
   - type: web
     name: ai-refund-agent-web
-    env: static
+    runtime: static
     rootDir: frontend
-    plan: free
     buildCommand: npm install && npm run build
     staticPublishPath: dist
     envVars:
