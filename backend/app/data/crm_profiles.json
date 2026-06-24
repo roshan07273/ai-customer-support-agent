@@ -1,0 +1,373 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta@example.com",
+    "tier": "gold",
+    "risk_score": 12,
+    "orders": [
+      {
+        "order_id": "ORD-9001",
+        "item": "Noise cancelling headphones",
+        "category": "electronics",
+        "amount": 249.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-12",
+        "delivery_date": "2026-06-15",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 365,
+        "flags": []
+      }
+    ],
+    "refund_history": [
+      { "order_id": "ORD-8120", "date": "2026-02-10", "amount": 39.0, "reason": "wrong size" }
+    ]
+  },
+  {
+    "customer_id": "CUST-1002",
+    "name": "Maya Thompson",
+    "email": "maya.t@example.com",
+    "tier": "silver",
+    "risk_score": 22,
+    "orders": [
+      {
+        "order_id": "ORD-9002",
+        "item": "Organic cotton hoodie",
+        "category": "apparel",
+        "amount": 74.0,
+        "currency": "USD",
+        "purchase_date": "2026-05-29",
+        "delivery_date": "2026-06-02",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": []
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1003",
+    "name": "Noah Williams",
+    "email": "noah.williams@example.com",
+    "tier": "standard",
+    "risk_score": 18,
+    "orders": [
+      {
+        "order_id": "ORD-9003",
+        "item": "Ceramic cookware set",
+        "category": "home",
+        "amount": 129.0,
+        "currency": "USD",
+        "purchase_date": "2026-04-20",
+        "delivery_date": "2026-04-24",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 180,
+        "flags": []
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1004",
+    "name": "Priya Nair",
+    "email": "priya.nair@example.com",
+    "tier": "gold",
+    "risk_score": 8,
+    "orders": [
+      {
+        "order_id": "ORD-9004",
+        "item": "Running shoes",
+        "category": "footwear",
+        "amount": 138.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-05",
+        "delivery_date": "2026-06-09",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": []
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1005",
+    "name": "Ethan Garcia",
+    "email": "ethan.g@example.com",
+    "tier": "standard",
+    "risk_score": 64,
+    "orders": [
+      {
+        "order_id": "ORD-9005",
+        "item": "Gaming keyboard",
+        "category": "electronics",
+        "amount": 119.0,
+        "currency": "USD",
+        "purchase_date": "2026-05-10",
+        "delivery_date": "2026-05-14",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 365,
+        "flags": ["serial_number_missing"]
+      }
+    ],
+    "refund_history": [
+      { "order_id": "ORD-7301", "date": "2026-01-03", "amount": 86.0, "reason": "not as described" },
+      { "order_id": "ORD-7512", "date": "2026-03-19", "amount": 44.0, "reason": "changed mind" },
+      { "order_id": "ORD-7999", "date": "2026-04-22", "amount": 62.0, "reason": "damaged" }
+    ]
+  },
+  {
+    "customer_id": "CUST-1006",
+    "name": "Sofia Rossi",
+    "email": "sofia.rossi@example.com",
+    "tier": "silver",
+    "risk_score": 10,
+    "orders": [
+      {
+        "order_id": "ORD-9006",
+        "item": "Digital meal plan subscription",
+        "category": "digital",
+        "amount": 29.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-17",
+        "delivery_date": "2026-06-17",
+        "status": "fulfilled",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": ["digital_access_used"]
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1007",
+    "name": "Liam O'Connor",
+    "email": "liam.oconnor@example.com",
+    "tier": "standard",
+    "risk_score": 34,
+    "orders": [
+      {
+        "order_id": "ORD-9007",
+        "item": "Espresso machine",
+        "category": "home",
+        "amount": 499.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-01",
+        "delivery_date": "2026-06-06",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 365,
+        "flags": []
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1008",
+    "name": "Grace Kim",
+    "email": "grace.kim@example.com",
+    "tier": "gold",
+    "risk_score": 19,
+    "orders": [
+      {
+        "order_id": "ORD-9008",
+        "item": "Smart watch",
+        "category": "electronics",
+        "amount": 289.0,
+        "currency": "USD",
+        "purchase_date": "2026-05-22",
+        "delivery_date": "2026-05-25",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "approved",
+        "warranty_days": 365,
+        "flags": []
+      }
+    ],
+    "refund_history": [
+      { "order_id": "ORD-9008", "date": "2026-06-01", "amount": 289.0, "reason": "defective" }
+    ]
+  },
+  {
+    "customer_id": "CUST-1009",
+    "name": "Daniel Brown",
+    "email": "daniel.brown@example.com",
+    "tier": "standard",
+    "risk_score": 27,
+    "orders": [
+      {
+        "order_id": "ORD-9009",
+        "item": "Trail backpack",
+        "category": "outdoor",
+        "amount": 96.0,
+        "currency": "USD",
+        "purchase_date": "2026-05-01",
+        "delivery_date": "2026-05-04",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": ["final_sale"]
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1010",
+    "name": "Fatima Khan",
+    "email": "fatima.khan@example.com",
+    "tier": "silver",
+    "risk_score": 16,
+    "orders": [
+      {
+        "order_id": "ORD-9010",
+        "item": "Skincare bundle",
+        "category": "personal_care",
+        "amount": 58.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-10",
+        "delivery_date": "2026-06-13",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": ["opened_hygiene_item"]
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1011",
+    "name": "Oliver Smith",
+    "email": "oliver.smith@example.com",
+    "tier": "standard",
+    "risk_score": 51,
+    "orders": [
+      {
+        "order_id": "ORD-9011",
+        "item": "Laptop stand",
+        "category": "office",
+        "amount": 42.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-03",
+        "delivery_date": "2026-06-07",
+        "status": "delivered",
+        "payment_status": "chargeback_open",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": []
+      }
+    ],
+    "refund_history": [
+      { "order_id": "ORD-8201", "date": "2026-05-12", "amount": 38.0, "reason": "late delivery" },
+      { "order_id": "ORD-8302", "date": "2026-05-30", "amount": 24.0, "reason": "missing accessory" }
+    ]
+  },
+  {
+    "customer_id": "CUST-1012",
+    "name": "Chloe Martin",
+    "email": "chloe.martin@example.com",
+    "tier": "gold",
+    "risk_score": 6,
+    "orders": [
+      {
+        "order_id": "ORD-9012",
+        "item": "Cashmere scarf",
+        "category": "apparel",
+        "amount": 155.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-18",
+        "delivery_date": "2026-06-21",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": []
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1013",
+    "name": "Hiro Tanaka",
+    "email": "hiro.tanaka@example.com",
+    "tier": "silver",
+    "risk_score": 24,
+    "orders": [
+      {
+        "order_id": "ORD-9013",
+        "item": "Drone battery pack",
+        "category": "electronics",
+        "amount": 89.0,
+        "currency": "USD",
+        "purchase_date": "2026-04-10",
+        "delivery_date": "2026-04-15",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 365,
+        "flags": ["hazmat_return_required"]
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1014",
+    "name": "Isabella Lopez",
+    "email": "isabella.lopez@example.com",
+    "tier": "standard",
+    "risk_score": 13,
+    "orders": [
+      {
+        "order_id": "ORD-9014",
+        "item": "Desk lamp",
+        "category": "home",
+        "amount": 64.0,
+        "currency": "USD",
+        "purchase_date": "2026-06-16",
+        "delivery_date": "2026-06-20",
+        "status": "in_transit",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 0,
+        "flags": []
+      }
+    ],
+    "refund_history": []
+  },
+  {
+    "customer_id": "CUST-1015",
+    "name": "William Johnson",
+    "email": "william.johnson@example.com",
+    "tier": "gold",
+    "risk_score": 9,
+    "orders": [
+      {
+        "order_id": "ORD-9015",
+        "item": "Mattress",
+        "category": "home",
+        "amount": 799.0,
+        "currency": "USD",
+        "purchase_date": "2026-05-28",
+        "delivery_date": "2026-06-01",
+        "status": "delivered",
+        "payment_status": "paid",
+        "refund_status": "none",
+        "warranty_days": 730,
+        "flags": ["oversized_item"]
+      }
+    ],
+    "refund_history": []
+  }
+]
