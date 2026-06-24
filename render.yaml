@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: ai-refund-agent-api
+    env: docker
+    rootDir: backend
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+
+  - type: web
+    name: ai-refund-agent-web
+    env: static
+    rootDir: frontend
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        value: https://ai-refund-agent-api.onrender.com/api
